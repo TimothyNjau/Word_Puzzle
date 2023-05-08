@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background: linear-gradient(60deg, rgb(245,150,50), rgb(50,245,150),rgb(150,50,245));
+    background-size: 200% 100%;
+    animation: Transition 15s ease infinite;
+}
+table{
+    height: 30rem;
+    user-select: none;
+    border-collapse: collapse;
+    border: 1px solid;
+    background-color: rgba(255, 255, 250, 0.74);
+}
+.cell{
+    border: 1px dashed brown;
+    box-sizing: border-box;
+    padding: 0;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+@keyframes Transition {
+    0% {
+        background-position: 0% 100%;
+    }
+    25% {
+        background-position: 35% 100%;
+    }
+    50% {
+        background-position: 70% 100%;
+    }
+    70% {
+        background-position: 35% 100%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}

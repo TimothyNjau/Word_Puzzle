@@ -1,0 +1,64 @@
+#title{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+#navbar{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 10px;
+}
+#messageCont{
+    visibility: hidden;
+    color: white;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.623);
+  z-index: 1;
+  text-align: center;
+  font-size: 30px;
+}
+#messageCont > input {
+    width: fit-content;
+    
+}
+#mainCont{
+    display: flex;
+    visibility: hidden;
+    flex-direction: row;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#wordsCont{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbarBtn{
+    font-size: 1.6rem;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: beige;
+    border-style: none;
+}
+
+input{
+    width: 100px;
+}
+.cell:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/layout.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="title">
+        <h1>🆆🅾🆁🅳 🅿🆄🆉🆉🅻🅴</h1>
+    </div>
+    <div id="navbar">
+        <input type="button" value="Start" id="startBtn" class="navbarBtn">
+        <select id="categoryBtn" class="navbarBtn">
+            <option value="animals">ANIMALS</option>
+            <option value="school">SCHOOL</option>
+            <option value="kitchen">KITCHEN</option>
+        </select>
+        <div id="timerCont">
+            <label for="timer">TIME</label>
+            <input type="time" name="timer" id="timer" value="00:00:00" disabled class="navbarBtn" style="width:fit-content;">
+        </div>      
+        <div id="score">
+            <label for="scores">SCORE</label>
+            <input type="number" class="navbarBtn" value="0" id="scores" disabled>
+        </div>
+    </div>
+    <div id="messageCont">
+        <h2>CONGRATULATIONS</h2>
+        <h3 id="timingText"></h3>
+        <h4>Press "Start" to play again</h4>
+
+    </div>
+    <div id="mainCont">
+        <div id="wordsCont">
+            <h3>Find the following words in the puzzle</h3>
+        </div>
+        <div><table id="puzzleCont"></table></div>
+        
+    </div>
+    <div></div>
+</body>
+<script src="static/src/global.js"></script>
+<script src="static/src/main.js"></script>
+</html>
